@@ -1,0 +1,28 @@
+/* esse arquivo retira algumas configuracaoes que o navegador coloca por padrao
+
+a sintaxe ccs funciona assim
+seletor {
+    regras: propriedades;
+}
+seletores podem ser acionados de formas diferentes
+p, h1 (elementos)
+.class (classes)
+#id (ids)
+* (todos)
+div.info (class child dentro do element parent)
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
